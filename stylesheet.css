@@ -1,0 +1,109 @@
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+
+body , html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: left;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.top-wrapper {
+	padding: 150px 0 100px 0;
+	background-image: url(https://d1sxg8jua9jde6.cloudfront.net/wp-content/uploads/2020/04/asus-rog-strix-b450-f-close-up-1024x576.jpg.webp);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px
+}
+
+.top-wrapper h2 {
+	margin-bottom: 10px;
+}
+
+.top-wrapper p {
+	margin-bottom: 0px;
+}
+
+.news {
+	background-color: #c6c6d0;
+	padding-bottom: 10px;
+}
+
+.heading {
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.content {
+	text-align: justify;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.btn-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+.menu-atas {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.menu-atas li {
+	padding-left: 10px;
+}
+
+.link-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.link-menu i {
+	margin: 0 auto;
+}
+
+.btn-wrapper span {
+	font-size: 0.7 em;
+}
+
+.menu-atas {
+	margin: 0 auto;
+}
+
+.message-wrapper {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 80px;
+}
+
+
