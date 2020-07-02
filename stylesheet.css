@@ -81,7 +81,8 @@ a {
 }
 
 .menu-atas li {
-	padding-left: 10px;
+/* 	padding-left: 10px; */
+	margin: 0 10px;
 }
 
 .link-menu {
@@ -91,12 +92,16 @@ a {
 
 .link-menu i {
 	margin: 0 auto;
+	font-size: 1.3em;
 }
 
-.btn-wrapper span {
+/* .btn-wrapper span {
 	font-size: 0.7 em;
+} */
+.link-menu div p{
+	text-align:center;
+	font-size:0.8em;
 }
-
 .menu-atas {
 	margin: 0 auto;
 }
